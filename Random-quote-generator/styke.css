@@ -1,0 +1,11 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  height: 120px;
+  width: 500px;
+  background-color: rgb(224, 102, 122);
+  box-shadow: 10px 0px 10px 0px;
+}
+button {
+  background-color: rgb(32, 139, 130);
+}
