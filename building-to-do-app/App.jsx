@@ -6,9 +6,12 @@ function App(){
   const [task, setTask] = useState("")
   const [todos,setTodo] = useState(["tony","marvel","ironmen","tom"])
 function createTodo(){
+  if(task){
     setTodo(oldTodos => {
+      setTask('')
         return [...oldTodos, task]
     })
+  }
 //  console.log(task)
 }
 return(
