@@ -1,6 +1,6 @@
 import "./styles.css";
 import { useState } from "react";
-//import
+//import like this 
 const quotes = [
   "You will face many defeats in life, but never let yourself be defeated",
   "In the end, it is not the years in your life that count",
